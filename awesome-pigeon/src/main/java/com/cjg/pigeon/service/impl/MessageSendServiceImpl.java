@@ -23,6 +23,7 @@ public class MessageSendServiceImpl implements MessageSendService {
         log.info("收到发送短信请求，手机号为：{}，发送内容为：{}",messageSendRequestDTO.getPhone(),messageSendRequestDTO.getMessage());
         /**
         * 处理短信发送
+         *
         * */
         log.info("短信发送成功啦，十分的nice！");
         return resultDTO.success();
