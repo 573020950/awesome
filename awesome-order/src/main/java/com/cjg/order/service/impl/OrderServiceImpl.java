@@ -14,14 +14,12 @@ import org.springframework.stereotype.Service;
  * @auther Tianpenghao
  * @date Created in 2020/10/21 17:12
  */
-@Service
 @Slf4j
+@Service
 public class OrderServiceImpl implements OrderService {
     @Autowired
     private PigeonFeignClient pigeonFeignClient;
 
-//    @Autowired
-//    private MessageSendService messageSendService;
     @Autowired
     private ThreadPoolTaskExecutor threadPoolTaskExecutor;
 

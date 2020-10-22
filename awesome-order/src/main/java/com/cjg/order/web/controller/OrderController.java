@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServletResponse;
  * @auther Tianpenghao
  * @date Created in 2020/10/21 17:12
  */
-@RestController
 @Slf4j
+@RestController
 public class OrderController {
     @Autowired
     private OrderService orderService;
