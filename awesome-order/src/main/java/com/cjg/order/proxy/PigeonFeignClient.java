@@ -19,5 +19,6 @@ public interface PigeonFeignClient {
      * 发送短信
      * */
     @RequestMapping(value = "/sendMessage", method = RequestMethod.POST)
+    //利乐县
     ResultDTO<MessageSendResponseDTO> sendMessage(@RequestBody MessageSendRequestDTO messageSendRequestDTO);
 }
